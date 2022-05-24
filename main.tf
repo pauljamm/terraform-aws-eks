@@ -1,7 +1,7 @@
 data "aws_partition" "current" {}
 
 locals {
-  create = var.create && var.putin_khuylo
+  create = var.create
 }
 
 ################################################################################
